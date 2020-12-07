@@ -17,7 +17,7 @@ pipeline {
        }
     }
     
-    stage('build') {
+    stage('building') {
       steps {
         script {
             bat" mvn  -f C://Windows//System32//config//systemprofile//AppData//Local//Jenkins//.jenkins//workspace//firstpipeline//first//first clean install"
