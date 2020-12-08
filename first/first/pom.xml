@@ -17,7 +17,6 @@
 	<properties>
 		<java.version>1.8</java.version>
 	</properties>
- 
 
 	<dependencies>
 		<dependency>
@@ -44,29 +43,6 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
-						<plugin>
-
-						 <groupId>
-							 org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-                <version>${springboot.version}</version>
-
-			<executions>
-                    <execution>
-                        <id>pre-integration-test</id>
-                        <goals>
-                            <goal>start</goal>
-                        </goals>
-                    </execution>
-                    <execution>
-                        <id>post-integration-test</id>
-                        <goals>
-                            <goal>stop</goal>
-                        </goals>
-                    </execution>
-	  <executions>
-		  			</plugin>
-
 		</plugins>
 	</build>
 
