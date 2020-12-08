@@ -17,6 +17,20 @@
 	<properties>
 		<java.version>1.8</java.version>
 	</properties>
+ <executions>
+                    <execution>
+                        <id>pre-integration-test</id>
+                        <goals>
+                            <goal>start</goal>
+                        </goals>
+                    </execution>
+                    <execution>
+                        <id>post-integration-test</id>
+                        <goals>
+                            <goal>stop</goal>
+                        </goals>
+                    </execution>
+	  <executions>
 
 	<dependencies>
 		<dependency>
